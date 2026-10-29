@@ -16,7 +16,7 @@ jobs:
         run: |
           test -f index.html
           grep -q '<title>' index.html
-          grep -q 'FA23-BAI-026' index.html
+          grep -q 'FA23-BAI-999' index.html
           test -f style.css
           grep -q 'Labs' index.html
 
